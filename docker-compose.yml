@@ -1,0 +1,12 @@
+services:
+  api:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      DATABASE_URL: sqlite:///./lumina.db
+      SECRET_KEY: change-me-in-production
+    volumes: ["./backend:/app"]
+  web:
+    build: ./frontend
+    ports: ["5173:5173"]
+    depends_on: [api]
