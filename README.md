@@ -1,5 +1,11 @@
 # Akash Bondada — Developer blog
 
+## Live website
+
+🌐 **[Open Akash's Engineering Journal](https://bondada-akash-blog.netlify.app/)**
+
+[![Live Blog](https://img.shields.io/badge/Live_Blog-Open_site-2563eb?style=for-the-badge)](https://bondada-akash-blog.netlify.app/)
+
 Premium developer portfolio and technical blog for Akash Bondada, built with React/Vite/Tailwind and FastAPI/SQLAlchemy/SQLite.
 
 ## Run locally
