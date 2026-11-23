@@ -1,1 +1,1 @@
-export default {content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{fontFamily:{sans:['DM Sans','sans-serif'],serif:['Fraunces','serif']},colors:{ink:'#17211b',sage:'#e1efdf',moss:'#315844',cream:'#fbfaf5',coral:'#8f4d5a'}}},plugins:[]};
+export default {content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{fontFamily:{sans:['DM Sans','sans-serif'],serif:['Fraunces','serif']},colors:{ink:'#17211b',sage:'#e1efdf',moss:'#315844',cream:'#fbfaf5',coral:'#b28a4a'}}},plugins:[]};
