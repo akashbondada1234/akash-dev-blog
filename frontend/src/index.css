@@ -6,14 +6,14 @@
   color: #17211b;
   background: #f7f4ec;
   font-synthesis: none;
-  --blue: #a9654d;
+  --blue: #d26055;
   --ink: #17211b;
-  --line: #d8dfd4;
+  --line: #d5dfd1;
   --surface: #fffdf8;
   --forest: #315844;
   --sage: #dce9df;
-  --ivory: #f7f4ec;
-  --terracotta: #a9654d;
+  --ivory: #fbfaf5;
+  --terracotta: #d26055;
 }
 
 * { box-sizing: border-box; }
@@ -23,8 +23,8 @@ body {
   min-width: 320px;
   overflow-x: hidden;
   background:
-    radial-gradient(circle at 8% 0%, #dce9df 0, transparent 27rem),
-    radial-gradient(circle at 100% 20%, #f1d8ca 0, transparent 24rem),
+    radial-gradient(circle at 8% 0%, #dcefdc 0, transparent 27rem),
+    radial-gradient(circle at 100% 20%, #f7d8d0 0, transparent 24rem),
     var(--ivory);
 }
 body:before {
@@ -65,20 +65,20 @@ select {
 }
 
 /* Botanical editorial palette for existing utility classes. */
-.text-blue-400 { color: #c4876d !important; }
-.text-blue-500, .text-blue-600 { color: #a9654d !important; }
-.text-blue-700 { color: #7b4738 !important; }
-.bg-blue-400 { background-color: #c4876d !important; }
-.bg-blue-500 { background-color: #a9654d !important; }
-.bg-blue-600 { background-color: #8f503e !important; }
-.hover\:bg-blue-400:hover { background-color: #b8755b !important; }
-.hover\:bg-blue-500:hover { background-color: #8f503e !important; }
-.hover\:text-blue-500:hover { color: #a9654d !important; }
-.border-blue-200 { border-color: #e5c9bc !important; }
-.border-blue-300 { border-color: #d9ad9a !important; }
-.border-blue-400 { border-color: #c4876d !important; }
-.focus\:border-blue-400:focus { border-color: #c4876d !important; }
-.shadow-blue-500\/30 { --tw-shadow-color: rgb(169 101 77 / .30) !important; }
+.text-blue-400 { color: #ef9a80 !important; }
+.text-blue-500, .text-blue-600 { color: #d26055 !important; }
+.text-blue-700 { color: #a8403b !important; }
+.bg-blue-400 { background-color: #ef9a80 !important; }
+.bg-blue-500 { background-color: #d26055 !important; }
+.bg-blue-600 { background-color: #b84d47 !important; }
+.hover\:bg-blue-400:hover { background-color: #df7a68 !important; }
+.hover\:bg-blue-500:hover { background-color: #b84d47 !important; }
+.hover\:text-blue-500:hover { color: #d26055 !important; }
+.border-blue-200 { border-color: #f0c5bd !important; }
+.border-blue-300 { border-color: #e9a99e !important; }
+.border-blue-400 { border-color: #ef9a80 !important; }
+.focus\:border-blue-400:focus { border-color: #ef9a80 !important; }
+.shadow-blue-500\/30 { --tw-shadow-color: rgb(210 96 85 / .30) !important; }
 .dark body {
   background:
     radial-gradient(circle at 100% 0, #294936 0, transparent 30rem),
